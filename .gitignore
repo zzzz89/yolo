@@ -1,0 +1,25 @@
+# IDE / Python
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Other projects / archives in this folder
+pytorch-YOLO-v1/
+新建文件夹/
+*.zip
+
+# YOLOv3: large weights, datasets, run outputs, media
+yolov3/weight/
+yolov3/runs/
+yolov3/VOCdevkit/
+yolov3/*.pt
+yolov3/*.avi
+yolov3/*.mp4
+yolov3/yolo_train.txt
+yolov3/yolo_val.txt
+yolov3/.idea/
+yolov3/__pycache__/
+yolov3/**/__pycache__/

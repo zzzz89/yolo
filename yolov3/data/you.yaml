@@ -1,0 +1,13 @@
+#"""数据集源路径root、训练集、验证集、测试集地址"""
+path: .  # 相对 yolov3 根目录（train/detect 会切到该目录）
+train: # root下的训练集地址
+  - VOCdevkit/images/train
+val: # root下的验证集地址
+  - VOCdevkit/images/val
+test: # root下的测试集地址
+  - VOCdevkit/images/val
+
+# Classes
+nc: 20  # 检测的类别数量
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+           'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']  # 检测的类别名，避免用中文
